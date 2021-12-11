@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>authentification</title>
+
+</head>
+<body>
+    <header>
+        <div class="acces">Connexion</div>
+        <div class="deja"><a href="inscription.php">S'inscrire</a><br></div>
+    </header>
+
+    <div class="formulaire">
+        <form method="POST" action="traitement_auth.php">
+            <label for="identifiant">identifiant :</label><br>
+            <input type="text" name="identifiant" id="identifiant" class="champs" required><br><br>
+            <label for="pass">Mot de passe :</label><br>
+            <input type="password" name="pass" id="pass" class="champs" required><br><br>
+            <input type="submit" name="valider" id="valider" class="champs" value="Se connecter">
+
+        </form>
+    </div>
+</body>
+</html>

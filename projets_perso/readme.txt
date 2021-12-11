@@ -1,0 +1,6 @@
+Ce formulaire me permet de m'exercer à la fois en html css, javascript et php
+
+En html, j'ai pu m'exerce sur les tags et attributs relatifs aux  formulaires notamment : form, input, pattern, placeholder, maxlength , input type, submit, radio, textarea, etc
+En Css,  J'ai appris à faire une page responsive avec notamment les attributs flex(pour la disposition des éléments de la page), les dimensions responsives (rem, em, %, px, vw, vh), le background-blend-mode (pour nuance l'image du bg avec une couleur de fond "overlay"), remplir sur la totalité de l'écran l'image de fond(bg-position "center",repeat "no-repeat",bg-size "cover"), etc...
+En javascript, j'ai pu reviser comment valider les formulaires en js, notamment avec les REGEX, les fonctions validity.valueMissing pour vérifier que le champ est bien rempli et value.match() pour valider un format de numéro précis.
+En Php, j'ai pu revisé la méthode POST, manipuler la page de traitement des données, la connexion à la bdd mysql, la sécurisation des données envoyées, etc...

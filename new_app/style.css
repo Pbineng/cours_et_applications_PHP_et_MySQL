@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0; 
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 10vh;
+}
+.champs{
+    height: 4vh;
+    width: 15vw;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" >
+    <script src="script.js" defer></script>
+    <title>Contact Form</title>
+</head>
+<body>
+    <div id="contact-form_wrapper">
+        <form method="POST" action="traitement.php">
+            <p id="sexe"> Vous êtes : 
+            <input type="radio" name="genre" value="M." id="sexeM">
+            <label for="sexeM"><strong>M. </strong></label>
+            <input type="radio" name="genre" value="Mm." id="sexeF">
+            <label for="sexeF"><strong>Mm. </strong></label>
+            <input type="radio" name="genre" value="Mlle." id="sexeD">
+            <label for="sexeD"><strong>Mlle. </strong></label>
+            </p>
+            <div id="champs">
+                <input type="text" id="prenom" name="prenom" value="" maxlength="30" placeholder="remplissez votre prénom" autocomplete="" required ><br><span id="prenom_manquant" class="temoin"></span><br>
+                <input type="text" id="nom" name="nom" value="" maxlength="30" placeholder="remplissez votre nom" required><br><span id="nom_manquant" class="temoin"></span><br>
+                <input type="tel" id="phone" name="phone" value="" placeholder="remplissez votre numéro de téléphone" required ><br><span id="indi">format : +43-123-456-78-901</span><span id="tel_invalid" class="temoin"></span><br>  <!--Pour indiquer le format requis avec le html, on simplement utilisé l'attribut Pattern comme suit par exemple : pattern="[0-9]{4}-[0-9]{3}-[0-9]{2}-[0-9]{3}" -->
+                <input type="email" id="mail" name="mail" value="" placeholder="remplissez votre adresse e-mail"><br>
+                <textarea name="commentaire" id="commentaire" placeholder="votre message" maxlength="420"></textarea> <br>
+               <!-- <label for="fichier1">Joindre un fichier :</label>
+                <input type="file" name="fichier1" id="fichier1"><br>-->
+            </div>
+            <input type="submit" id="envoyer" value="Envoyer">
+            
+        </form>
+
+    </div>
+</body>
+</html>

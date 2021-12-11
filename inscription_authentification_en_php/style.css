@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: auto;
+    height: 8vh;
+    border-bottom: 3px solid #CCC;
+    margin-bottom: 0vh;
+    padding: 5vh 3vh ;
+    background-color: #777;
+}
+body{
+    background-color: #333;
+}
+.acces{
+    font-size: 55px ;
+    color: #DDD;
+    margin-bottom: 1vh;
+}
+.deja{
+    border: 1px red;
+    font-size: 20px;
+    background-color: #C50;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 7px;
+    margin-top: 1vh;
+}
+.formulaire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+    max-height: 45vh;
+    min-height: 20vh;
+    background-color: #333;
+    margin-top: 10vh;
+    
+}
+form{
+    border: 3px solid;
+    padding: 1vh 1vw;
+    border-radius: 3%;
+    height: auto;
+    max-height: 40vh;
+    
+    
+}
+.champs{
+    width: 25vw;
+    max-width: 25vw;
+    min-width: 20vw;
+    height: 2.5vh;
+    max-height: 2.5vh;
+    min-height: 2vh;
+    border: 1px solid #CCC;
+    border-radius: 3%;
+    background-color: #333;
+}
+.titre{
+    color: #DDD;
+}
+#valider{
+    background-color: #C50;
+    height: 5vh;
+    border-radius: 3%;
+}
+#bonjour{
+    color: #DDD ;
+    margin: 15vh 40% ;
+}
+#utilisateur{
+    color: #C50;
+}

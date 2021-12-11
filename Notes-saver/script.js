@@ -1,0 +1,10 @@
+
+function noteTable(){
+    
+}
+
+function noteStock(){
+
+}
+
+

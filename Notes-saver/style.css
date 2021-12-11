@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(74, 143, 74);
+}
+
+#new-note {
+    width: 50%;
+}
+#new-note-form{
+    border: rgb(189, 127, 73) solid 1px;
+}
+#new-note h2{
+    margin: 20px 0px;
+    border: 1px solid rgb(160, 73, 73);
+}
+.form-element{
+    margin-top: 55px;
+}
+
+
+#previews-note-table{
+    border: 1px solid rgb(35, 35, 163);
+}
